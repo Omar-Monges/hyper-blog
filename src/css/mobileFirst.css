@@ -125,3 +125,43 @@ header {
     background-color: #ff8f70;
     border-radius: 15px;
 }
+footer {
+    /* margin: 25px 0; */
+    padding: 25px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    place-content: center;
+    color: var(--grayish-blue);
+    background-color: var(--very-dark-black-blue);
+    border-top-right-radius: 70px;
+}
+.title-footer {
+    margin: 20px 0;
+    font-weight: bold;
+    color: var(--white);
+}
+footer div {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.product__container ul li,
+.company__container ul li,
+.connect__container ul li {
+    margin: 3px 0;
+    list-style: none;
+}
+.product__container ul,
+.company__container ul,
+.connect__container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
