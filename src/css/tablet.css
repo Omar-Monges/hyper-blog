@@ -50,4 +50,13 @@ footer {
 }
 .title-footer {
   text-align: center;
+  margin: 20px calc((50%-100px) / 2);
+}
+footer div {
+  align-items: flex-start;
+}
+.product__container ul,
+.company__container ul,
+.connect__container ul {
+  align-items: flex-start;
 }

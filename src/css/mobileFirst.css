@@ -53,17 +53,17 @@ header {
 .header__logo {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-.header__logo h2 {
+.header__logo img {
   display: inline-block;
   width: auto;
   height: 40px;
   color: var(--white);
   font-family: "Ubuntu", sans-serif;
-  font-size: 4rem;
-  font-weight: 700;
+  /* font-size: 4rem;
+  font-weight: 700; */
 }
 .header__title-container {
   display: flex;
@@ -154,9 +154,15 @@ footer {
   border-top-right-radius: 70px;
 }
 .title-footer {
-  margin: 20px 0;
-  font-weight: bold;
-  color: var(--white);
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  /* color: var(--white); */
+  background-image: url("../../assets/img/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 footer div {
   margin: 15px 0;
