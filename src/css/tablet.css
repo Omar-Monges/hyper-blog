@@ -25,9 +25,11 @@ main {
   grid-row: 2 / 6;
   width: 95%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 .info__p {
-  margin: 1.5rem 1rem;
+  margin: 1.5rem 0;
   text-align: left;
 }
 .info2 {
@@ -41,6 +43,8 @@ main {
   grid-row: 1 / 5;
   width: 95%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 footer {

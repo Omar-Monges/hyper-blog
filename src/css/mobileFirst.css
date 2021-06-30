@@ -136,9 +136,13 @@ header {
 .info__img2 {
   display: inline-block;
   width: 90%;
-  height: 200px;
-  background-color: #ff8f70;
+  height: auto;
+  /* background-color: #ff8f70; */
   border-radius: 15px;
+}
+.info__img img,
+.info__img2 img {
+  width: 100%;
 }
 footer {
   /* margin: 25px 0; */

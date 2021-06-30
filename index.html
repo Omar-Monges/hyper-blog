@@ -1,91 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/mobileFirst.css">
-    <link rel="stylesheet" href="./src/css/tablet.css" media="screen and (min-width: 520px)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/mobileFirst.css" />
+    <link
+      rel="stylesheet"
+      href="./src/css/tablet.css"
+      media="screen and (min-width: 520px)"
+    />
     <title>My Blog</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="header__container">
-            <section class="header__logo">
-                <!-- <h2>Hyper blog</h2> -->
-                <img src="./assets/img/logo.svg" alt="Blogr">
-            </section>
-            <section class="header__title-container">
-                <h2>A modern publishing platform</h2>
-                <p>Grow your audience and build your online brand</p>
-                <a href="#">Learn More</a>
-            </section>
-        </div>
+      <div class="header__container">
+        <section class="header__logo">
+          <!-- <h2>Hyper blog</h2> -->
+          <img src="./assets/img/logo.svg" alt="Blogr" />
+        </section>
+        <section class="header__title-container">
+          <h2>A modern publishing platform</h2>
+          <p>Grow your audience and build your online brand</p>
+          <a href="#">Learn More</a>
+        </section>
+      </div>
     </header>
     <main>
-        <section class="info">
-            <h2 class="info__title">Design for the future</h2>
-            <div class="info__img"></div>
-            <h2 class="info__subTitle">Introducing an extensible editor</h2>
-            <p class="info__p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptas soluta unde similique, totam
-                blanditiis animi est, eos reprehenderit quod quas sed dicta, in voluptatibus sequi id itaque aliquam
-                tempore?
-            </p>
-            <h2 class="info__subTitle">Robust content management</h2>
-            <p class="info__p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita possimus esse porro deleniti
-                quos animi dicta labore eos repudiandae in explicabo iure sit nesciunt odit, nemo aspernatur assumenda.
-                Laborum!
-            </p>
-        </section>
-        <section class="info2">
-            <div class="info__img2"></div>
-            <h2 class="info__subTitle">Free, simple, open</h2>
-            <p class="info__p">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis maiores, deleniti voluptates obcaecati exercitationem iste accusantium laudantium quam tempora illo repudiandae, officiis odio enim labore facilis commodi? Aperiam, facere repudiandae?
-            </p>
-            <h2 class="info__subTitle">Powerful tooting</h2>
-            <p class="info__p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquid minus porro sequi, eos beatae dicta at nobis deserunt neque eius a aut nesciunt delectus ratione harum. Magni, provident tempore!
-            </p>
-        </section>
+      <section class="info">
+        <h2 class="info__title">Design for the future</h2>
+        <div class="info__img">
+          <img
+            srcset="
+              ./assets/img/illustration-editor-mobile.svg  2x,
+              ./assets/img/illustration-editor-desktop.svg 1x
+            "
+            alt="Illustration editor"
+          />
+        </div>
+        <h2 class="info__subTitle">Introducing an extensible editor</h2>
+        <p class="info__p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+          voluptas soluta unde similique, totam blanditiis animi est, eos
+          reprehenderit quod quas sed dicta, in voluptatibus sequi id itaque
+          aliquam tempore?
+        </p>
+        <h2 class="info__subTitle">Robust content management</h2>
+        <p class="info__p">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+          expedita possimus esse porro deleniti quos animi dicta labore eos
+          repudiandae in explicabo iure sit nesciunt odit, nemo aspernatur
+          assumenda. Laborum!
+        </p>
+      </section>
+      <section class="info2">
+        <div class="info__img2">
+          <img
+            srcset="
+              ./assets/img/illustration-laptop-mobile.svg  520w,
+              ./assets/img/illustration-laptop-desktop.svg
+            "
+            alt=""
+          />
+        </div>
+        <h2 class="info__subTitle">Free, simple, open</h2>
+        <p class="info__p">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+          maiores, deleniti voluptates obcaecati exercitationem iste accusantium
+          laudantium quam tempora illo repudiandae, officiis odio enim labore
+          facilis commodi? Aperiam, facere repudiandae?
+        </p>
+        <h2 class="info__subTitle">Powerful tooting</h2>
+        <p class="info__p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquid
+          minus porro sequi, eos beatae dicta at nobis deserunt neque eius a aut
+          nesciunt delectus ratione harum. Magni, provident tempore!
+        </p>
+      </section>
     </main>
     <footer>
-        <span class="title-footer"></span>
-        <div class="product__container">
-            <h3 class="product__container-title">Product</h3>
-            <ul>
-                <li>Overview</li>
-                <li>Pricing</li>
-                <li>Marketplace</li>
-                <li>Features</li>
-                <li>Integrations</li>
-            </ul>
-        </div>
-        <div class="company__container">
-            <h3 class="company__container-title">Company</h3>
-            <ul>
-                <li>About</li>
-                <li>Team</li>
-                <li>Blog</li>
-                <li>Careers</li>
-            </ul>
-        </div>
-        <div class="connect__container">
-            <h3 class="connect__container-title">Connect</h3>
-            <ul>
-                <li>Contact</li>
-                <li>Newsletter</li>
-                <li>Linkedln</li>
-            </ul>
-        </div>
+      <span class="title-footer"></span>
+      <div class="product__container">
+        <h3 class="product__container-title">Product</h3>
+        <ul>
+          <li>Overview</li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integrations</li>
+        </ul>
+      </div>
+      <div class="company__container">
+        <h3 class="company__container-title">Company</h3>
+        <ul>
+          <li>About</li>
+          <li>Team</li>
+          <li>Blog</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="connect__container">
+        <h3 class="connect__container-title">Connect</h3>
+        <ul>
+          <li>Contact</li>
+          <li>Newsletter</li>
+          <li>Linkedln</li>
+        </ul>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
